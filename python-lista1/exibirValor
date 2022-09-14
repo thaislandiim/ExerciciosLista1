@@ -1,0 +1,9 @@
+valor = 1
+valorInserido = input("Digite um número maior que 0: ")
+
+if int(valorInserido) <= 0:
+  print("Erro! Digite um número MAIOR que 0")
+else:
+  while valor <=5:
+    print(valor)
+    valor += 1
